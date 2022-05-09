@@ -40,7 +40,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: ghcr.io/dbha/supply-chain/tap-demo-tap-demo@sha256:ad8179bc4ee4f7b7f6c9b066029e0f3cb9b45e5d362c5f7269f082614e3920d1
+        image: ghcr.io/dbha/supply-chain/tap-demo-tap-demo@sha256:07bc53eaaceb1fca3f30ae23237f4827347f52a9ffd7301615100f82b3c9bf6b
         name: workload
         ports:
         - containerPort: 8080
